@@ -1,0 +1,10 @@
+import streamlit as st
+
+st.title("Final AI Project")
+
+st.write("This is my final project submission.")
+
+name = st.text_input("Enter your name")
+
+if st.button("Submit"):
+    st.success(f"Hello {name}! My project is working successfully.")
